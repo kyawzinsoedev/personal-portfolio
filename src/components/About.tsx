@@ -34,7 +34,10 @@ export function About() {
           eyebrow="About Me"
           title={
             <>
-              Backend depth, <span className="text-emerald-600 dark:text-emerald-400">frontend craft</span>
+              Backend depth,{" "}
+              <span className="text-emerald-600 dark:text-emerald-400">
+                frontend craft
+              </span>
             </>
           }
           subtitle="A developer who cares about why things work — not just making them work."
@@ -56,8 +59,12 @@ export function About() {
                   <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-500/10 text-emerald-600 transition-colors group-hover:bg-emerald-500/20 dark:text-emerald-400">
                     <Icon size={22} />
                   </div>
-                  <h3 className="mb-2 font-semibold text-zinc-900 dark:text-zinc-100">{title}</h3>
-                  <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">{text}</p>
+                  <h3 className="mb-2 font-semibold text-zinc-900 dark:text-zinc-100">
+                    {title}
+                  </h3>
+                  <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+                    {text}
+                  </p>
                 </div>
               </Reveal>
             ))}
@@ -67,3 +74,5 @@ export function About() {
     </section>
   );
 }
+
+// adding my git cofig commit

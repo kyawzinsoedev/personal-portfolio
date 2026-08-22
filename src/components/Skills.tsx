@@ -16,7 +16,10 @@ export function Skills() {
           eyebrow="Skills"
           title={
             <>
-              Tools I build <span className="text-emerald-600 dark:text-emerald-400">with</span>
+              Tools I build{" "}
+              <span className="text-emerald-600 dark:text-emerald-400">
+                with
+              </span>
             </>
           }
           subtitle="A practical stack centered on Laravel on the backend and React + TypeScript on the frontend."
@@ -33,8 +36,12 @@ export function Skills() {
                       <Icon size={21} />
                     </span>
                     <div>
-                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100">{group.title}</h3>
-                      <p className="text-xs text-zinc-500 dark:text-zinc-400">{group.blurb}</p>
+                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100">
+                        {group.title}
+                      </h3>
+                      <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                        {group.blurb}
+                      </p>
                     </div>
                   </div>
                   <div className="flex flex-wrap gap-2">
@@ -56,3 +63,5 @@ export function Skills() {
     </section>
   );
 }
+
+// adding my git cofig commit

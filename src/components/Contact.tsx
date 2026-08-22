@@ -34,8 +34,9 @@ export function Contact() {
             </span>
           </h2>
           <p className="mx-auto mt-5 max-w-xl leading-relaxed">
-            I'm currently open to full-time roles and freelance projects. Whether you have a
-            question, an opportunity or just want to talk Laravel — my inbox is always open.
+            I'm currently open to full-time roles and freelance projects.
+            Whether you have a question, an opportunity or just want to talk
+            Laravel — my inbox is always open.
           </p>
         </Reveal>
 
@@ -53,7 +54,11 @@ export function Contact() {
               onClick={copyEmail}
               className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 px-5 py-3.5 font-mono text-sm text-zinc-600 transition-all hover:-translate-y-0.5 hover:bg-white dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-900"
             >
-              {copied ? <Check size={16} className="text-emerald-500" /> : <Copy size={16} />}
+              {copied ? (
+                <Check size={16} className="text-emerald-500" />
+              ) : (
+                <Copy size={16} />
+              )}
               {copied ? "Copied!" : profile.email}
             </button>
           </div>
@@ -87,3 +92,5 @@ export function Contact() {
     </section>
   );
 }
+
+// adding my git cofig commit
