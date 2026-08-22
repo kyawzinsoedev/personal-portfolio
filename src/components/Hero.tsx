@@ -108,10 +108,10 @@ export function Hero() {
                   src={profile.photo}
                   alt={profile.name}
                   onError={() => setImgError(true)}
-                  className="aspect-[4/5] w-full object-cover"
+                  className="aspect-square w-full bg-zinc-950 object-contain"
                 />
               ) : (
-                <div className="flex aspect-[4/5] w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-emerald-500/10 via-transparent to-sky-500/10">
+                <div className="flex aspect-square w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-emerald-500/10 via-transparent to-sky-500/10">
                   <span className="flex h-32 w-32 items-center justify-center rounded-full bg-emerald-500/15 text-4xl font-extrabold text-emerald-600 dark:text-emerald-400">
                     {profile.initials}
                   </span>

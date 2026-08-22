@@ -1,8 +1,10 @@
+import heroPhoto from "../assets/hero.png";
+
 export const profile = {
   name: "Kyaw Zin Soe",
   initials: "KZS",
   role: "Laravel Full-Stack Developer",
-  photo: "/profile.jpg",
+  photo: heroPhoto,
   headline:
     "I build practical, production-oriented web applications — from well-structured Laravel APIs and relational databases to clean, maintainable React + TypeScript frontends.",
   location: "Your City, Country",
