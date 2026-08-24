@@ -7,10 +7,10 @@ export const profile = {
   photo: heroPhoto,
   headline:
     "I build practical, production-oriented web applications — from well-structured Laravel APIs and relational databases to clean, maintainable React + TypeScript frontends.",
-  location: "Your City, Country",
+  location: "Yangon, Hlaing Tharyar",
   email: "kyawzinsoe21102002@gmail.com",
   github: "https://github.com/kyawzinsoedev",
-  linkedin: "https://www.linkedin.com/in/yourusername",
+  linkedin: "https://www.linkedin.com/in/kyaw-zin-soe-2047a8297",
 };
 
 export const aboutParagraphs = [
@@ -112,7 +112,7 @@ export const projects: Project[] = [
     description:
       "A validation-heavy multi-step loan application platform with document uploads, financial workflows, external service integrations and full activity logging.",
     tags: ["Laravel", "PostgreSQL", "REST Integrations", "AJAX", "Queues"],
-    link: "https://github.com/yourusername",
+    link: "https://github.com/kyawzinsoedev",
   },
   {
     title: "More on GitHub",
